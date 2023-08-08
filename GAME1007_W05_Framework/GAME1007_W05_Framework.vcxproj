@@ -175,6 +175,9 @@
     <Image Include="..\Assets\img\Enemies.png" />
     <Image Include="..\Assets\img\Turret.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Assets\dat\Turrets.xml" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

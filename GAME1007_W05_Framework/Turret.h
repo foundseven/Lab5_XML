@@ -9,13 +9,14 @@ public:
 	Turret(const SDL_Rect, const SDL_FRect);
 	void Update();
 	void Render();
-
+	int GetKills() const;
 private:
 	double m_angle;
 	// Firing properties.
 	bool m_hasTarget;
 	int m_fireCtr;
 	static int s_coolDown;
+	int m_kills;
 };
 
 #endif
